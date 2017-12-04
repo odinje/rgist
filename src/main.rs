@@ -104,7 +104,7 @@ fn create_gist(filepath: &str, public: bool, token: String) {
 fn main() {
   let matches = App::new("rgist")
                     .version("0.42.0")
-                    .about("Interactive with github gist")
+                    .about("Github gist client")
                     .arg(Arg::with_name("input")
                          .help("Filename")
                          .index(1))
